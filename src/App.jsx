@@ -9,10 +9,10 @@ import Portfolio from "./components/Portfolio";
 function App() {
   return (
     <div className="font-sans">
-      <Navbar/>
+      {/* <Navbar/> */}
       <Landing/>
       <Discover/>
-      <Marquee/>
+      {/* <Marquee/> */}
       <ImageSlider/>
       <Portfolio/>
     </div>
