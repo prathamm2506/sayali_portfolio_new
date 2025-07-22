@@ -5,16 +5,18 @@ import Discover from "./components/Discover";
 import Marquee from "./components/Marquee";
 import ImageSlider from "./components/ImageSlider";
 import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <div className="font-sans">
-      {/* <Navbar/> */}
+      <Navbar/>
       <Landing/>
       <Discover/>
-      {/* <Marquee/> */}
+      <Marquee/>
       <ImageSlider/>
       <Portfolio/>
+      <Contact/>
     </div>
   );
 }

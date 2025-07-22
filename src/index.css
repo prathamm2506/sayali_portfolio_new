@@ -18,3 +18,148 @@ body{
 .animate-fade-in {
   animation: fade-in 0.6s ease-out;
 }
+
+.contt {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+  .contt {
+    width: 90%;
+  }
+}
+.button {
+    display: inline-block; /* Makes the button behave like an inline element but allows setting width/height */
+    padding: 12px 24px; /* Adjust padding for desired size */
+    background-color: var(--yellow); /* Gold color */
+    color: var(--black); /* Black text */
+    text-decoration: none; /* Remove underlines from links */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1.3rem; /* Adjust font size as needed */
+    cursor: pointer; /* Makes the cursor a pointer on hover */
+    border: 2px solid var(--black); /* remove default button border*/
+    -webkit-box-shadow: 3px 3px 0px 0px rgba(40, 40, 37, 1);
+    -moz-box-shadow: 3px 3px 0px 0px rgba(40, 40, 37, 1);
+    box-shadow: 3px 3px 0px 0px rgba(40, 40, 37, 1);
+    transition: all 0.3s ease; /* smooth transitions for hover effect */
+  }
+  
+  .button:hover {
+    -webkit-box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+    -moz-box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+    box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+  }
+
+  
+.conttext{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.conttext h1{
+    font-size: 3.8rem !important;
+    line-height: 110% !important;
+    margin-bottom: 1.5rem !important;
+    font-weight: 600 !important;
+    text-align: left !important;
+}
+
+.conttext p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--black) !important;
+}
+
+.conttext small{
+    font-size: 1rem;
+}
+
+.formdiv{
+    padding: 1rem;
+}
+
+.formdiv input{
+    border: 2px solid var(--black);
+    outline: none;
+    width: 50%;
+    border-radius:10px ;
+    font-size: 1.2rem;
+    padding: .6rem 1rem;
+    -webkit-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
+    transition: all 0.3s ease; /* smooth transitions for hover effect */
+    font-family: var(--cabin);
+    color: var(--p);
+}
+
+.formdiv input:hover {
+    -webkit-box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+    -moz-box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+    box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+  }
+
+  .webcont{
+    width: 100%;
+  }
+
+  .webcont input{
+    width: 100%;
+  }
+
+  .webcont textarea{
+    border: 2px solid var(--black);
+    outline: none;
+    width: 100%;
+    margin-top: 1.5rem;
+    border-radius:10px ;
+    font-size: 1.2rem;
+    padding: .6rem 1rem;
+    -webkit-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
+    transition: all 0.3s ease; /* smooth transitions for hover effect */
+    font-family: var(--cabin);
+    color: var(--p);
+  }
+
+  .webcont textarea:hover{
+    -webkit-box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+    -moz-box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+    box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+  }
+
+  .socials{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .socials>a{
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding: .5rem;
+    margin-top: .5rem;
+    transition: all 0.3s ease; /* smooth transitions for hover effect */
+  }
+
+  .socials>a:hover{
+    background-color: var(--p);
+    transform: translateY(-3px);
+  }
+
+  @media (max-width:860px) {
+    .conttext{
+      text-align: center;
+    }
+    .conttext h1{
+      text-align: center !important;
+    }
+    .socials{
+      justify-content: center;
+    }
+  }
