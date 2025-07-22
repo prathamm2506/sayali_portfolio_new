@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="font-sans">
       <Navbar/>
-      <Landing/>
+      {/* <Landing/> */}
       <Discover/>
       <Marquee/>
       <ImageSlider/>
