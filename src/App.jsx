@@ -14,7 +14,7 @@ function App() {
       <Landing/>
       <Discover/>
       <Marquee/>
-      {/* <ImageSlider/> */}
+      <ImageSlider/>
       <Portfolio/>
       <Contact/>
     </div>
