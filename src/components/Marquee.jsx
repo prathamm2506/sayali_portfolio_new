@@ -2,71 +2,40 @@ import React from 'react'
 
 const Marquee = () => {
   return (
-    <div>
-         <div className="w-full py-16">
-      <div className="w-full mx-auto">
-        {/* Portfolio Galleries Title */}
-        <div className="text-center mb-12">
-          <h1 className="text-6xl lg:text-7xl font-black text-black tracking-tight">PORTFOLIO GALLERIES</h1>
+    <div className="w-full py-12 sm:py-16 overflow-hidden">
+      <div className="w-full">
+        {/* Title */}
+        <div className="text-center mb-10 sm:mb-12">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-black tracking-tight">
+            PORTFOLIO GALLERIES
+          </h1>
         </div>
 
-        {/* Marquee Section */}
+        {/* Marquee */}
         <div className="relative overflow-hidden">
           <div className="flex animate-marquee whitespace-nowrap">
-            <div className="flex items-center space-x-8 text-8xl font-black">
-              <span className="text-transparent" style={{ WebkitTextStroke: "2px #333" }}>
-                ALEXA
-              </span>
-              <span className="text-orange-500">•</span>
-              <span className="text-orange-500">ALEXA</span>
-              <span className="text-orange-500">•</span>
-              <span className="text-transparent" style={{ WebkitTextStroke: "2px #333" }}>
-                ALEXA
-              </span>
-              <span className="text-orange-500">•</span>
-              <span className="text-orange-500">ALEXA</span>
-              <span className="text-orange-500">•</span>
-              <span className="text-transparent" style={{ WebkitTextStroke: "2px #333" }}>
-                ALEXA
-              </span>
-              <span className="text-orange-500">•</span>
-              <span className="text-orange-500">ALEXA</span>
-              <span className="text-orange-500">•</span>
-              <span className="text-transparent" style={{ WebkitTextStroke: "2px #333" }}>
-                ALEXA
-              </span>
-              <span className="text-orange-500">•</span>
-              <span className="text-orange-500">ALEXA</span>
-              <span className="text-orange-500">•</span>
-            </div>
-
-            {/* Duplicate for seamless loop */}
-            <div className="flex items-center space-x-8 text-8xl font-black ml-8">
-              <span className="text-transparent" style={{ WebkitTextStroke: "2px #333" }}>
-                ALEXA
-              </span>
-              <span className="text-orange-500">•</span>
-              <span className="text-orange-500">ALEXA</span>
-              <span className="text-orange-500">•</span>
-              <span className="text-transparent" style={{ WebkitTextStroke: "2px #333" }}>
-                ALEXA
-              </span>
-              <span className="text-orange-500">•</span>
-              <span className="text-orange-500">ALEXA</span>
-              <span className="text-orange-500">•</span>
-              <span className="text-transparent" style={{ WebkitTextStroke: "2px #333" }}>
-                ALEXA
-              </span>
-              <span className="text-orange-500">•</span>
-              <span className="text-orange-500">ALEXA</span>
-              <span className="text-orange-500">•</span>
-              <span className="text-transparent" style={{ WebkitTextStroke: "2px #333" }}>
-                ALEXA
-              </span>
-              <span className="text-orange-500">•</span>
-              <span className="text-orange-500">ALEXA</span>
-              <span className="text-orange-500">•</span>
-            </div>
+            {[...Array(2)].map((_, i) => (
+              <div
+                key={i}
+                className={`flex items-center space-x-4 sm:space-x-6 md:space-x-8 text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black ${
+                  i === 1 ? 'ml-8' : ''
+                }`}
+              >
+                {Array.from({ length: 8 }).map((_, index) => (
+                  <React.Fragment key={index}>
+                    <span
+                      className="text-transparent"
+                      style={{ WebkitTextStroke: '2px #333' }}
+                    >
+                      ALEXA
+                    </span>
+                    <span className="text-orange-500">•</span>
+                    <span className="text-orange-500">ALEXA</span>
+                    <span className="text-orange-500">•</span>
+                  </React.Fragment>
+                ))}
+              </div>
+            ))}
           </div>
         </div>
       </div>
@@ -80,12 +49,11 @@ const Marquee = () => {
             transform: translateX(-50%);
           }
         }
-        
+
         .animate-marquee {
           animation: marquee 20s linear infinite;
         }
       `}</style>
-    </div>
     </div>
   )
 }

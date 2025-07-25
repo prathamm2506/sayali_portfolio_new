@@ -163,3 +163,73 @@ body{
       justify-content: center;
     }
   }
+
+  .eduu {
+  padding: 3rem 0;
+  width: 80%;
+  margin:  0 auto;
+}
+
+.eduu h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.educard {
+  width: 30%;
+  height: 100%;
+  margin-bottom: 2rem;
+  padding: 2rem 1rem;
+  border: 2px solid var(--black);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
+  transition: all 0.3s ease; /* smooth transitions for hover effect */
+}
+
+.educard:hover {
+  -webkit-box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+  -moz-box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+  box-shadow: 6px 6px 0px 0px rgba(40, 40, 37, 1);
+}
+
+.educard h2{
+    color: var(--black) !important;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.educard p{
+    font-size: 1.2rem;
+}
+
+.educard h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+@media (max-width:1380px){
+    .eduu{
+        width: 90%;
+    }
+}
+
+@media (max-width:1220px){
+    .eduu{
+        width: 95%;
+    }
+}
+
+@media (max-width:900px){
+    .respoedu{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .respoedu>div{
+        width: 100%;
+    }
+}
