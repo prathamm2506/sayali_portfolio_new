@@ -1,6 +1,6 @@
 import React from "react";
 import img1 from "../assets/mainimg.webp";
-import img2 from "../assets/sayali.webp";
+import img2 from "../assets/Sayali.webp";
 
 const Landing = () => {
   return (
