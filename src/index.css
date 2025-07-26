@@ -2,6 +2,10 @@
 
 @import "tailwindcss";
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
     background: #e4eaaa;
 }
@@ -253,3 +257,4 @@ h1, h2, h3{
 p, small{
   font-family: "PT Sans", sans-serif;
 }
+

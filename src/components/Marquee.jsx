@@ -2,7 +2,7 @@ import React from 'react'
 
 const Marquee = () => {
   return (
-    <div className="w-full py-12 sm:py-16 overflow-hidden">
+    <div className="w-full py-12 sm:py-16 overflow-hidden" id="portfolio">
       <div className="w-full">
         {/* Title */}
         <div className="text-center mb-10 sm:mb-12">

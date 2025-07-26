@@ -6,6 +6,7 @@ import Marquee from "./components/Marquee";
 import ImageSlider from "./components/ImageSlider";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import BackToTopButton from "./components/BackToTopButton";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <ImageSlider/>
       <Portfolio/>
       <Contact/>
+      <BackToTopButton/>
     </div>
   );
 }
