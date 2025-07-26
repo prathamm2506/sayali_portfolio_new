@@ -17,7 +17,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row justify-between gap-12 py-12 px-4 max-w-6xl mx-auto" id="contact">
+    <div className="flex flex-col lg:flex-row justify-between gap-12 py-12 px-4 max-w-6xl mx-auto pt-16 md:pt-0" id="contact">
       <div className="w-full lg:w-1/2 flex flex-col gap-6">
         <h1 className="text-4xl lg:text-5xl font-semibold leading-tight">Have a Project Idea? Let's Talk!</h1>
         <p className="text-lg text-gray-800">

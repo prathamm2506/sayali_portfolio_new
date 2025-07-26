@@ -2,7 +2,7 @@ import React from 'react';
 
 const Discover = () => {
   return (
-    <div className="w-full bg-white p-16" id="about">
+    <div className="w-full bg-white pt-16 pb-16" id="about">
       <div className="w-full h-full px-4 py-10 sm:px-8 md:px-16 lg:px-20 xl:px-24 flex flex-col items-center justify-center">
         
         {/* Image Section */}
