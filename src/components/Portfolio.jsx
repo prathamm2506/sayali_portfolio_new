@@ -27,7 +27,7 @@ export default function Portfolio() {
   ];
 
   return (
-    <div className="min-h-screen p-6 sm:p-8 flex flex-col items-center pt-24 md:pt-0">
+    <div className="min-h-screen p-6 sm:p-8 flex flex-col items-center">
       <div className="max-w-6xl w-full">
         {/* Portfolio Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
