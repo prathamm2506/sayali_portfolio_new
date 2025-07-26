@@ -5,7 +5,7 @@ import img2 from "../assets/Sayali.webp";
 const Landing = () => {
   return (
     <div>
-      <div className="w-full h-full flex flex-col-reverse lg:flex-row items-center">
+      <div className="w-full lg:h-screen flex flex-col-reverse lg:flex-row items-center">
         <div className="flex flex-col w-full lg:w-1/2 items-center">
           <div className="p-2 lg:p-10 lg:mt-8 relative z-10 flex flex-col items-center lg:items-start">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-normal text-black mb-1 ml-0 xl:ml-24 leading-tight">
@@ -20,18 +20,21 @@ const Landing = () => {
           </div>
 
           <div>
-            <img src={img2} alt="2 images" className="ml-0 xl:ml-24 w-96 h-64" />
+            <img
+              src={img2}
+              alt="2 images"
+              className="ml-0 xl:ml-24 w-96 h-64 xl:w-3/4 xl:h-3/4"
+            />
           </div>
         </div>
 
-       <div className="w-full sm:w-3/4 md:w-1/2 flex items-center justify-center">
-  <img
-    src={img1}
-    alt="main image"
-    className="w-4/4 sm:w-4/5 md:w-full lg:w-10/12 xl:w-9/12 h-auto object-contain"
-  />
-</div>
-
+        <div className="w-full sm:w-3/4 md:w-1/2 flex items-center justify-center">
+          <img
+            src={img1}
+            alt="main image"
+            className="w-4/4 sm:w-4/5 md:w-full lg:w-10/12 xl:w-10/12 h-auto object-contain"
+          />
+        </div>
       </div>
     </div>
   );

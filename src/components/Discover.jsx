@@ -15,7 +15,7 @@ const Discover = () => {
         </div>
 
         {/* Content Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start w-full max-w-6xl">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-start w-full max-w-6xl">
           
           {/* Left Column - Title (Centered on Mobile) */}
           <div className="flex justify-center lg:justify-start">
@@ -27,7 +27,7 @@ const Discover = () => {
           </div>
 
           {/* Right Column - Text Content */}
-          <div className="space-y-6 text-base sm:text-lg text-gray-600 leading-relaxed">
+          <div className="space-y-6 text-base sm:text-lg text-gray-800 leading-relaxed">
             <p>
               At ALEXA Photography isn't just a profession—it's a lifelong passion. From my humble beginnings
               experimenting with my first camera to honing my craft through years of dedication and training, I've always

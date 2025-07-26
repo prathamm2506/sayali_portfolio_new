@@ -24,11 +24,11 @@ const Contact = () => {
           I'm always excited to collaborate on innovative tech ideas, whether it's app development, AI integration, or solving real-world problems. Feel free to reach out if you'd like to brainstorm ideas, discuss a project, or work on something impactful together. Let's learn, build, and create meaningful solutions!
         </p>
         <div>
-          <small className="text-base text-gray-600">Email me at</small>
+          <small className="text-base text-gray-800">Email me at</small>
           <p className="text-lg font-medium">prathammatkar2506@gmail.com</p>
         </div>
         <div>
-          <small className="text-base text-gray-600">Follow</small>
+          <small className="text-base text-gray-800">Follow</small>
           <div className="flex gap-4 mt-2">
             <a href="https://www.instagram.com/pratham_2506_/" target="_blank" rel="noopener noreferrer" className="bg-black text-white text-xl p-2 rounded-full hover:bg-yellow-500 transform hover:-translate-y-1 transition">
               <FaInstagram />
@@ -71,7 +71,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="inline-block px-6 py-3 text-lg font-medium text-black bg-yellow-400 border-2 border-black rounded-md shadow-md hover:shadow-lg transition hover:-translate-y-1"
+            className="inline-block px-6 py-3 text-lg font-medium text-black bg-[#ffadc1] border-2 border-black rounded-full shadow-md hover:shadow-lg transition hover:-translate-y-1"
           >
             Get in touch
           </button>

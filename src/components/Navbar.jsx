@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <header className="bg-[#201E1A] text-white px-6 py-4">
       <nav className="flex justify-between items-center max-w-7xl mx-auto">
-        <div className="text-[#ffadc1] font-bold text-2xl">ALX</div>
+        <div className="text-[#ffadc1] font-bold text-2xl fontme">ALX</div>
         
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-10 text-gray-400 text-sm font-medium tracking-wider">

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&display=swap');
+
 @import "tailwindcss";
 
 body{
@@ -91,7 +93,6 @@ body{
     -moz-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
     transition: all 0.3s ease; /* smooth transitions for hover effect */
-    font-family: var(--cabin);
     color: var(--p);
 }
 
@@ -121,7 +122,6 @@ body{
     -moz-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
     transition: all 0.3s ease; /* smooth transitions for hover effect */
-    font-family: var(--cabin);
     color: var(--p);
   }
 
@@ -232,4 +232,24 @@ body{
     .respoedu>div{
         width: 100%;
     }
+}
+
+li{
+  font-family: "Quicksand", sans-serif;
+}
+
+.fontme{
+  font-family: "Quicksand", sans-serif;
+}
+
+.fontme2{
+   font-family: "Roboto Slab", serif;
+}
+
+h1, h2, h3{
+   font-family: "Roboto Slab", serif;
+}
+
+p, small{
+  font-family: "PT Sans", sans-serif;
 }

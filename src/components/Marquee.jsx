@@ -12,7 +12,7 @@ const Marquee = () => {
         </div>
 
         {/* Marquee */}
-        <div className="relative overflow-hidden">
+        <div className="relative overflow-hidden fontme2">
           <div className="flex animate-marquee whitespace-nowrap">
             {[...Array(2)].map((_, i) => (
               <div
@@ -25,13 +25,13 @@ const Marquee = () => {
                   <React.Fragment key={index}>
                     <span
                       className="text-transparent"
-                      style={{ WebkitTextStroke: '2px #333' }}
+                      style={{ WebkitTextStroke: '2px #000' }}
                     >
                       ALEXA
                     </span>
-                    <span className="text-orange-500">•</span>
-                    <span className="text-orange-500">ALEXA</span>
-                    <span className="text-orange-500">•</span>
+                    <span className="text-[#ffadc1]">•</span>
+                    <span className="text-[#ffadc1]">ALEXA</span>
+                    <span className="text-[#ffadc1]">•</span>
                   </React.Fragment>
                 ))}
               </div>

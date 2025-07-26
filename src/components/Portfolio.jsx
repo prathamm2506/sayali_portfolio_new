@@ -27,7 +27,7 @@ export default function Portfolio() {
   ];
 
   return (
-    <div className="min-h-screen bg-yellow-100 p-6 sm:p-8 flex flex-col items-center">
+    <div className="min-h-screen p-6 sm:p-8 flex flex-col items-center">
       <div className="max-w-6xl w-full">
         {/* Portfolio Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -41,11 +41,11 @@ export default function Portfolio() {
                 />
               </div>
               <div className="flex items-center justify-between">
-                <h3 className="text-xl sm:text-2xl font-serif italic text-gray-800">
+                <h3 className="text-xl sm:text-2xl ">
                   {person.name}
                 </h3>
-                <button className="w-10 sm:w-12 h-10 sm:h-12 rounded-full border-2 border-gray-600 flex items-center justify-center hover:bg-gray-100 transition-colors">
-                  <ArrowRight className="w-5 h-5 text-gray-600" />
+                <button className="w-10 sm:w-12 h-10 sm:h-12 flex items-center justify-center text-black bg-[#ffadc1] border-2 border-black rounded-full shadow-md hover:shadow-lg transition hover:-translate-y-1">
+                  <ArrowRight className="w-5 h-5 text-black" />
                 </button>
               </div>
             </div>
@@ -65,10 +65,10 @@ export default function Portfolio() {
                   />
                 </div>
                 <div className="flex items-center justify-between">
-                  <h3 className="text-xl sm:text-2xl font-serif italic text-gray-800">{person.name}</h3>
-                  <button className="w-10 sm:w-12 h-10 sm:h-12 rounded-full border-2 border-gray-600 flex items-center justify-center hover:bg-gray-100 transition-colors">
-                    <ArrowRight className="w-5 h-5 text-gray-600" />
-                  </button>
+                  <h3 className="text-xl sm:text-2xl text-black">{person.name}</h3>
+                  <button className="w-10 sm:w-12 h-10 sm:h-12 flex items-center justify-center text-black bg-[#ffadc1] border-2 border-black rounded-full shadow-md hover:shadow-lg transition hover:-translate-y-1">
+                  <ArrowRight className="w-5 h-5 text-black" />
+                </button>
                 </div>
               </div>
             ))}
@@ -81,15 +81,15 @@ export default function Portfolio() {
             <button
               onClick={handleViewMore}
               disabled={isLoading}
-              className="px-10 py-3 sm:px-12 sm:py-4 border-2 border-gray-600 rounded-full text-gray-600 font-medium text-base sm:text-lg hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              className="inline-block px-6 py-3 text-lg font-medium text-black bg-[#ffadc1] border-2 border-black rounded-full shadow-md hover:shadow-lg transition hover:-translate-y-1"
             >
               {isLoading ? (
                 <div className="flex items-center gap-2">
-                  <div className="w-5 h-5 border-2 border-gray-600 border-t-transparent rounded-full animate-spin"></div>
+                  <div className="w-5 h-5 border-2 border-black border-t-transparent rounded-full animate-spin"></div>
                   Loading...
                 </div>
               ) : (
-                "VIEW MORE"
+                "View More"
               )}
             </button>
           </div>
