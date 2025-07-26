@@ -30,15 +30,15 @@ const Contact = () => {
         <div>
           <small className="text-base text-gray-800">Follow</small>
           <div className="flex gap-4 mt-2">
-            <a href="https://www.instagram.com/pratham_2506_/" target="_blank" rel="noopener noreferrer" className="bg-black text-white text-xl p-2 rounded-full hover:bg-yellow-500 transform hover:-translate-y-1 transition">
+            <a href="https://www.instagram.com/pratham_2506_/" target="_blank" rel="noopener noreferrer" className="bg-black text-white text-xl p-2 rounded-full hover:bg-[#ffadc1] transform hover:-translate-y-1 transition">
               <FaInstagram />
             </a>
-            <a href="https://www.linkedin.com/in/pratham-matkar-a2bb77257/" target="_blank" rel="noopener noreferrer" className="bg-black text-white text-xl p-2 rounded-full hover:bg-yellow-500 transform hover:-translate-y-1 transition">
+            {/* <a href="https://www.linkedin.com/in/pratham-matkar-a2bb77257/" target="_blank" rel="noopener noreferrer" className="bg-black text-white text-xl p-2 rounded-full hover:bg-[#ffadc1] transform hover:-translate-y-1 transition">
               <FaLinkedinIn />
             </a>
-            <a href="https://github.com/prathamm2506" target="_blank" rel="noopener noreferrer" className="bg-black text-white text-xl p-2 rounded-full hover:bg-yellow-500 transform hover:-translate-y-1 transition">
+            <a href="https://github.com/prathamm2506" target="_blank" rel="noopener noreferrer" className="bg-black text-white text-xl p-2 rounded-full hover:bg-[#ffadc1] transform hover:-translate-y-1 transition">
               <FaGithub />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
@@ -50,7 +50,7 @@ const Contact = () => {
               type="text"
               name="name"
               placeholder="Your name"
-              className="w-full px-4 py-3 text-lg rounded-lg border-2 border-black shadow-md focus:outline-none focus:ring-2 focus:ring-yellow-400"
+              className="w-full px-4 py-3 text-lg rounded-lg border-2 border-black shadow-md focus:outline-none focus:ring-2 focus:ring-[#ffadc1]"
             />
           </div>
           <div>
@@ -58,7 +58,7 @@ const Contact = () => {
               type="email"
               name="email"
               placeholder="Your email"
-              className="w-full px-4 py-3 text-lg rounded-lg border-2 border-black shadow-md focus:outline-none focus:ring-2 focus:ring-yellow-400"
+              className="w-full px-4 py-3 text-lg rounded-lg border-2 border-black shadow-md focus:outline-none focus:ring-2 focus:ring-[#ffadc1]"
             />
           </div>
           <div>
@@ -66,7 +66,7 @@ const Contact = () => {
               name="message"
               rows="4"
               placeholder="Project details, context, how can I help ..."
-              className="w-full px-4 py-3 text-lg rounded-lg border-2 border-black shadow-md focus:outline-none focus:ring-2 focus:ring-yellow-400"
+              className="w-full px-4 py-3 text-lg rounded-lg border-2 border-black shadow-md focus:outline-none focus:ring-2 focus:ring-[#ffadc1]"
             ></textarea>
           </div>
           <button

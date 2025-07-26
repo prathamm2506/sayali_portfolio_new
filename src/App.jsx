@@ -7,6 +7,7 @@ import ImageSlider from "./components/ImageSlider";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import BackToTopButton from "./components/BackToTopButton";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <ImageSlider/>
       <Portfolio/>
       <Contact/>
+      <Footer/>
       <BackToTopButton/>
     </div>
   );

@@ -10,12 +10,12 @@ const Navbar = () => {
     { name: 'HOME', href: '#home' },
     { name: 'ABOUT', href: '#about' },
     { name: 'PORTFOLIO', href: '#portfolio' },
-    { name: 'INSTAGRAM', href: '#instagram' },
+    // { name: 'INSTAGRAM', href: '#instagram' },
     { name: 'CONTACT', href: '#contact' },
   ];
 
   return (
-    <header className="bg-[#201E1A] text-white px-6 py-4 w-full z-50">
+    <header className="bg-[#201E1A] text-white fixed px-6 py-4 w-full z-50">
       <nav className="flex justify-between items-center max-w-7xl mx-auto">
         <div className="text-[#ffadc1] font-bold text-2xl fontme">ALX</div>
 

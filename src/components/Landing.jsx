@@ -5,7 +5,7 @@ import img2 from "../assets/Sayali.webp";
 const Landing = () => {
   return (
     <div>
-      <div className="w-full lg:h-screen flex flex-col-reverse lg:flex-row items-center" id="home">
+      <div className="w-full lg:h-screen flex flex-col-reverse lg:flex-row items-center pt-16" id="home">
         <div className="flex flex-col w-full lg:w-1/2 items-center">
           <div className="p-2 lg:p-10 lg:mt-8 relative z-10 flex flex-col items-center lg:items-start">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-normal text-black mb-1 ml-0 xl:ml-24 leading-tight">
