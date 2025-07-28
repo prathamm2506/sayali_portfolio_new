@@ -2,7 +2,7 @@ import React from 'react'
 
 const Marquee = () => {
   return (
-    <div className="w-full py-12 sm:py-16 overflow-hidden pt-24 md:pt-0" id="portfolio">
+    <div className="w-full py-12 sm:py-16 overflow-hidden pt-24 md:pt-20" id="portfolio">
       <div className="w-full">
         {/* Title */}
         <div className="text-center mb-10 sm:mb-12">
@@ -27,10 +27,10 @@ const Marquee = () => {
                       className="text-transparent"
                       style={{ WebkitTextStroke: '2px #000' }}
                     >
-                      ALEXA
+                      SAYALI
                     </span>
                     <span className="text-[#ffadc1]">•</span>
-                    <span className="text-[#ffadc1]">ALEXA</span>
+                    <span className="text-[#ffadc1]">SAYALI</span>
                     <span className="text-[#ffadc1]">•</span>
                   </React.Fragment>
                 ))}

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Discover = () => {
   return (
-    <div className="w-full bg-white pt-16 pb-16" id="about">
+    <div className="w-full bg-white pt-16 pb-12" id="about">
       <div className="w-full h-full px-4 py-10 sm:px-8 md:px-16 lg:px-20 xl:px-24 flex flex-col items-center justify-center">
         
         {/* Image Section */}
@@ -19,27 +19,23 @@ const Discover = () => {
           
           {/* Left Column - Title (Centered on Mobile) */}
           <div className="flex justify-center lg:justify-start">
-            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-black text-black leading-tight text-center lg:text-left">
-              DISCOVER
+            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-black text-black leading-tight text-center lg:text-left mb-4">
+              MEET
               <br />
-              MORE
+              SAYALI
             </h2>
           </div>
 
           {/* Right Column - Text Content */}
-          <div className="space-y-6 text-base sm:text-lg text-gray-800 leading-relaxed">
+          <div className="space-y-6 text-gray-800 leading-relaxed text-2xl">
             <p>
-              At ALEXA Photography isn't just a profession—it's a lifelong passion. From my humble beginnings
-              experimenting with my first camera to honing my craft through years of dedication and training, I've always
-              believed in the power of imagery to evoke emotion and preserve memories.
+              Hi, I’m Sayali — a passionate content creator and digital dreamer. From styling cute outfits to sharing  vibes, I love turning moments into stories through Reels and posts.
             </p>
 
             <p>
-              Every click of the shutter is an opportunity to freeze a moment in time, to capture the essence of a person,
-              a place, or an event. Whether it's the tender embrace of a newlywed couple, the candid laughter of a family
-              gathering, or the breathtaking beauty of a landscape at dawn, I strive to create images that resonate and
-              endure.
+              I believe in creating my own path, one post at a time. Whether it's a fun transition, a trending sound, or just a real smile — I’m here to share it all.
             </p>
+            <p>🎀 Let’s make content that connects.</p>
           </div>
         </div>
       </div>

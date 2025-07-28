@@ -8,8 +8,8 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm(
-      "service_v6kgaki",
-      "template_37gtb6n",
+      "service_0o96foj",
+      "template_teghqii",
       form.current,
       "e_4GZJ4zkAZXmNdwg"
     );
@@ -19,18 +19,19 @@ const Contact = () => {
   return (
     <div className="flex flex-col lg:flex-row justify-between gap-12 py-12 px-4 max-w-6xl mx-auto pt-24 md:pt-0" id="contact">
       <div className="w-full lg:w-1/2 flex flex-col gap-6">
-        <h1 className="text-4xl lg:text-5xl font-semibold leading-tight">Have a Project Idea? Let's Talk!</h1>
-        <p className="text-lg text-gray-800">
-          I'm always excited to collaborate on innovative tech ideas, whether it's app development, AI integration, or solving real-world problems. Feel free to reach out if you'd like to brainstorm ideas, discuss a project, or work on something impactful together. Let's learn, build, and create meaningful solutions!
+        <h1 className="text-4xl lg:text-5xl font-semibold leading-tight">Collaborate With Me – Let’s Create Together</h1>
+        <p className="text-2xl text-gray-800">
+          Whether you’re a brand, fellow creator, or someone with a fun idea — I’d love to hear from you!
         </p>
+        <p className="text-2xl text-gray-800">I’m open to partnerships, UGC content, and creative collabs. Let’s make something unforgettable 💫</p>
         <div>
-          <small className="text-base text-gray-800">Email me at</small>
-          <p className="text-lg font-medium">prathammatkar2506@gmail.com</p>
+          <small className="text-xl text-gray-800">Email me at</small>
+          <p className="text-2xl font-medium">sayali.nikam004@gmail.com</p>
         </div>
         <div>
-          <small className="text-base text-gray-800">Follow</small>
+          <small className="text-xl text-gray-800">DM me on Instagram</small>
           <div className="flex gap-4 mt-2">
-            <a href="https://www.instagram.com/pratham_2506_/" target="_blank" rel="noopener noreferrer" className="bg-black text-white text-xl p-2 rounded-full hover:bg-[#ffadc1] transform hover:-translate-y-1 transition">
+            <a href="https://www.instagram.com/sayaleee_u_know_/" target="_blank" rel="noopener noreferrer" className="bg-black text-white text-xl p-2 rounded-full hover:bg-[#ffadc1] transform hover:-translate-y-1 transition">
               <FaInstagram />
             </a>
             {/* <a href="https://www.linkedin.com/in/pratham-matkar-a2bb77257/" target="_blank" rel="noopener noreferrer" className="bg-black text-white text-xl p-2 rounded-full hover:bg-[#ffadc1] transform hover:-translate-y-1 transition">
