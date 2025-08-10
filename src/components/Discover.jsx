@@ -1,4 +1,5 @@
 import React from 'react';
+import about from '../assets/about.jpeg'
 
 const Discover = () => {
   return (
@@ -8,9 +9,9 @@ const Discover = () => {
         {/* Image Section */}
         <div className="w-full max-w-6xl mb-10">
           <img
-            src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?cs=srgb&dl=pexels-pixabay-326055.jpg&fm=jpg"
+            src={about}
             alt=""
-            className="w-full h-64 sm:h-80 md:h-96 object-cover rounded-lg shadow"
+            className="w-full h-64 sm:h-80 md:h-[60vh] object-cover rounded-lg shadow"
           />
         </div>
 

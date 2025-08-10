@@ -1,3 +1,5 @@
+import image2 from '../assets/image2.jpeg'
+
 const ImageSlider = () => {
   const slide = {
     id: 1,
@@ -7,7 +9,7 @@ const ImageSlider = () => {
     coupleImage:
       "https://images.squarespace-cdn.com/content/v1/5ee52f7d9edc8a7ee635591a/8df50655-6b68-460e-ad6c-5230001b9d5a/240404+-+063944+-+001.jpg?format=2500w",
     ringsImage:
-      "https://media.greatbigphotographyworld.com/wp-content/uploads/2014/11/Landscape-Photography-steps.jpg",
+      image2,
   }
 
   const handleClick = () => {
@@ -66,7 +68,7 @@ const ImageSlider = () => {
             <img
               src={slide.ringsImage || "/placeholder.svg"}
               alt="Wedding rings"
-              className="w-full h-auto max-w-md rounded-lg object-cover shadow-md"
+              className="w-full h-80 max-w-md rounded-lg object-cover shadow-md"
             />
           </div>
         </div>
