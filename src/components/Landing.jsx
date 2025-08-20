@@ -1,6 +1,6 @@
 import React from "react";
 import img1 from "../assets/mainimg.webp";
-import img2 from "../assets/Sayali.webp";
+import img2 from "../assets/mainimg2.png";
 import { FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa6";
 
 
@@ -46,7 +46,7 @@ const Landing = () => {
 
         <div className="w-full sm:w-3/4 md:w-1/2 flex items-center justify-center">
           <img
-            src={img1}
+            src={img2}
             alt="main image"
             className="w-4/4 sm:w-4/5 md:w-full lg:w-10/12 xl:w-10/12 h-auto object-contain"
           />

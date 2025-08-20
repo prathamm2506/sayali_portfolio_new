@@ -1,4 +1,5 @@
 import image2 from '../assets/image2.jpeg'
+import image4 from '../assets/1.webp'
 
 const ImageSlider = () => {
   const slide = {
@@ -7,7 +8,7 @@ const ImageSlider = () => {
     description:
       '"Love is in the air and every frame tells a story. From the exchange of vows to the joyous celebration that follows, my wedding portfolio captures the romance, the emotion, and the beauty of your special day."',
     coupleImage:
-      "https://images.squarespace-cdn.com/content/v1/5ee52f7d9edc8a7ee635591a/8df50655-6b68-460e-ad6c-5230001b9d5a/240404+-+063944+-+001.jpg?format=2500w",
+      image4,
     ringsImage:
       image2,
   }
@@ -26,7 +27,7 @@ const ImageSlider = () => {
             <img
               src={slide.coupleImage || "/placeholder.svg"}
               alt="Wedding couple in romantic pose"
-              className="w-full h-auto max-w-md rounded-lg object-cover shadow-lg"
+              className="w-full h-[500px] max-w-md rounded-lg object-cover shadow-lg"
             />
 
             {/* Static Button */}
