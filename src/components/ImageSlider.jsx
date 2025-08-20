@@ -32,9 +32,9 @@ const ImageSlider = () => {
 
             {/* Static Button */}
             <div className="mt-6">
-              <button
+              <a href="https://www.instagram.com/sayaleee_u_know_/" target="_blank"><button
                 onClick={handleClick}
-                className="w-14 h-14 flex items-center justify-center text-black bg-[#ffadc1] border-2 border-black rounded-full shadow-md hover:shadow-lg transition hover:-translate-y-1"
+                className="w-14 h-14 flex items-center justify-center text-black bg-[#ffadc1] border-2 border-black rounded-full shadow-md hover:shadow-lg transition hover:-translate-y-1 hover:cursor-pointer"
               >
                 <svg
                   className="w-6 h-6 text-black group-hover:translate-x-1 transition-transform"
@@ -50,6 +50,7 @@ const ImageSlider = () => {
                   />
                 </svg>
               </button>
+              </a>
             </div>
           </div>
 

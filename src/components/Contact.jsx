@@ -72,7 +72,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="inline-block px-6 py-3 text-lg font-medium text-black bg-[#ffadc1] border-2 border-black rounded-full shadow-md hover:shadow-lg transition hover:-translate-y-1"
+            className="inline-block px-6 py-3 text-lg font-medium text-black bg-[#ffadc1] border-2 border-black rounded-full shadow-md hover:shadow-lg transition hover:-translate-y-1 hover:cursor-pointer"
           >
             Get in touch
           </button>

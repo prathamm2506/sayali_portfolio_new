@@ -26,12 +26,13 @@ const Landing = () => {
               Chasing dreams for creating my own path 🚀 <br />
               Let the vibe speak louder than words ✨
             </p>
-            <button
-            type="submit"
-            className="px-6 py-3 text-lg font-medium text-black bg-[#ffadc1] border-2 border-black rounded-full shadow-md hover:shadow-lg transition hover:-translate-y-1 ml-0 xl:ml-24 flex items-center justify-center gap-4 mb-10"
+            <a href="https://www.instagram.com/sayaleee_u_know_/" target="_blank"><button
+            type="submit" 
+            className="px-6 py-3 text-lg font-medium text-black bg-[#ffadc1] border-2 border-black rounded-full shadow-md hover:shadow-lg transition hover:-translate-y-1 ml-0 xl:ml-24 flex items-center justify-center gap-4 mb-10 hover:cursor-pointer"
           >
             <FaInstagram className="text-3xl"/> Follow me on INSTAGRAM
           </button>
+          </a>
           </div>
 
           {/* <div> */}
