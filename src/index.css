@@ -240,27 +240,32 @@ body{
 
 li{
   /* font-family: "Quicksand", sans-serif; */
-   font-family: "Sansation", sans-serif;
+   /* font-family: "Sansation", sans-serif; */
+   font-family:Calibri;
 }
 
 .fontme{
   /* font-family: "Quicksand", sans-serif; */
-   font-family: "Sansation", sans-serif;
+   /* font-family: "Sansation", sans-serif; */
+   font-family:Calibri;
 }
 
 .fontme2{
    /* font-family: "Roboto Slab", serif; */
-   font-family: "Sansation", sans-serif;
+   /* font-family: "Sansation", sans-serif; */
+   font-family:Calibri;
 }
 
 h1, h2, h3{
    /* font-family: "Nata Sans", sans-serif; */
-   font-family: "Sansation", sans-serif;
+   /* font-family: "Sansation", sans-serif; */
+   font-family:Calibri;
    /* font-family: "Borel", cursive; */
 }
 
 p, small{
   /* font-family: "PT Sans", sans-serif; */
-   font-family: "Sansation", sans-serif;
+   /* font-family: "Sansation", sans-serif; */
+   font-family:Calibri;
 }
 

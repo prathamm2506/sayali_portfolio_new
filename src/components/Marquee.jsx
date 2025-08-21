@@ -27,10 +27,10 @@ const Marquee = () => {
                       className="text-transparent"
                       style={{ WebkitTextStroke: '2px #000' }}
                     >
-                      SAYALI
+                      sayaleee_u_know
                     </span>
                     <span className="text-[#ffadc1]">•</span>
-                    <span className="text-[#ffadc1]">SAYALI</span>
+                    <span className="text-[#ffadc1]">sayaleee_u_know</span>
                     <span className="text-[#ffadc1]">•</span>
                   </React.Fragment>
                 ))}

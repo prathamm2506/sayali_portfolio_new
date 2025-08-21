@@ -20,7 +20,7 @@ const Discover = () => {
           
           {/* Left Column - Title (Centered on Mobile) */}
           <div className="flex justify-center lg:justify-start">
-            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-black text-black leading-tight text-center lg:text-left mb-4">
+            <h2 className="text-6xl sm:text-7xl lg:text-8xl font-black text-black leading-tight text-center lg:text-left mb-4">
               MEET
               <br />
               SAYALI
