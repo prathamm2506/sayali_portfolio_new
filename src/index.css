@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Delius&family=Delius+Swash+Caps&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Limelight&family=Luckiest+Guy&family=Mozilla+Text:wght@200..700&family=Nata+Sans:wght@100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Passero+One&family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 @import "tailwindcss";
 
@@ -239,22 +239,28 @@ body{
 }
 
 li{
-  font-family: "Quicksand", sans-serif;
+  /* font-family: "Quicksand", sans-serif; */
+   font-family: "Sansation", sans-serif;
 }
 
 .fontme{
-  font-family: "Quicksand", sans-serif;
+  /* font-family: "Quicksand", sans-serif; */
+   font-family: "Sansation", sans-serif;
 }
 
 .fontme2{
-   font-family: "Roboto Slab", serif;
+   /* font-family: "Roboto Slab", serif; */
+   font-family: "Sansation", sans-serif;
 }
 
 h1, h2, h3{
-   font-family: "Roboto Slab", serif;
+   /* font-family: "Nata Sans", sans-serif; */
+   font-family: "Sansation", sans-serif;
+   /* font-family: "Borel", cursive; */
 }
 
 p, small{
-  font-family: "PT Sans", sans-serif;
+  /* font-family: "PT Sans", sans-serif; */
+   font-family: "Sansation", sans-serif;
 }
 

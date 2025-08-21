@@ -23,7 +23,7 @@ const Landing = () => {
               Content Creator | Digital Dreamer
             </p>
             <p className="text-2xl lg:text-3xl font-normal text-black mb-10 ml-0 xl:ml-24 leading-tight text-center lg:text-left">
-              Chasing dreams for creating my own path 🚀 <br />
+              Chasing dreams & creating my own path 🚀 <br />
               Let the vibe speak louder than words ✨
             </p>
             <a href="https://www.instagram.com/sayaleee_u_know_/" target="_blank"><button
