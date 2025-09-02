@@ -4,9 +4,9 @@ import image4 from '../assets/1.webp'
 const ImageSlider = () => {
   const slide = {
     id: 1,
-    title: "Weddings",
+    title: "My World on Instagram",
     description:
-      '"Love is in the air and every frame tells a story. From the exchange of vows to the joyous celebration that follows, my wedding portfolio captures the romance, the emotion, and the beauty of your special day."',
+      'Instagram is more than just a platform — it’s my creative playground. Here, I share everyday inspiration, style, and stories that spark conversation and connection. Whether it’s a behind-the-scenes moment, a new brand collab, or just my daily vibe, I love curating content that’s both aesthetic and relatable.',
     coupleImage:
       image4,
     ringsImage:
